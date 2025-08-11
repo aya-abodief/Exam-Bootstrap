@@ -78,6 +78,8 @@ h6 {
 
 nav
 {
+  padding-top:1.5rem ;
+  padding-bottom: 1.5rem;
   background-color: white;
 }
 .navbar h1 {
@@ -521,9 +523,13 @@ nav
   border: 1px solid #111;
   transition: all .5s;
   font-size: .75rem;
-  transform: translateY(100%);
+  transform: translateY(80%);
+  transition: all .5s .2s;
 }
-
+.portofolio .inner:hover .layer-content i
+{
+  transform: translateY(0%);
+}
 .layer-content i:hover {
   background-color: white;
   color: #111;
@@ -543,8 +549,7 @@ nav
   text-transform: uppercase;
 }
 
-.portofolio .inner:hover h5,
-.layer-content i {
+.portofolio .inner:hover h5{
   transform: translateY(0%);
 }
 
@@ -742,6 +747,25 @@ footer p {
     max-width: 95% !important;
 
   }
+.navbar
+{
+  padding-bottom: 0px;
+}
+  .navbar-nav
+  {
+    background-color: black;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 100%;
+  }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show
+  {
+    color: white;
+  }
+  .nav-item .nav-link {
+  font-size: .875rem;
+  color: white;
+}
 }
 
 @media (max-width:768px) {
